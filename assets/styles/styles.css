@@ -1,0 +1,571 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*UL*/
+.menuBar {
+  background-color: #454545;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  overflow: hidden;
+  color: #18293a;
+}
+
+/*LI*/
+.listMenu {
+  color: #f7d1b6;
+  width: 100%;
+  background-color: #18293a;
+  text-decoration: none;
+  display: flex;
+}
+
+/*li a*/
+a {
+  width: 100%;
+  text-align: center;
+  color: #f7d1b6;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menuHover:hover {
+  text-align: center;
+  width: 100%;
+  background-color: #d73340;
+  color: #f7d1b6;
+  font-weight: bolder;
+  transition-duration: 200ms;
+}
+
+.mainImage {
+  display: inline-block;
+  width: 40%;
+}
+/* FOOTER*/
+
+.footerSocial {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  background-color: #18293a;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.iconFooter {
+  display: inline;
+  width: 50px;
+  border-radius: 5px;
+  transition-duration: 500ms;
+}
+
+.iconFooter:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #d73340;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #d73340;
+  transform: scale(1.2) rotate(-15deg) translateY(-12px);
+}
+
+.iconFooter2 {
+  display: inline;
+  width: 50px;
+  border-radius: 5px;
+  transition-duration: 500ms;
+}
+
+.iconFooter2:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #d73340;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #d73340;
+  transform: scale(1.2) rotate(-7deg) translateY(-12px);
+}
+
+.iconFooter4 {
+  display: inline;
+  width: 50px;
+  border-radius: 5px;
+  transition-duration: 500ms;
+}
+
+.iconFooter4:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #d73340;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #d73340;
+  transform: scale(1.2) rotate(15deg) translateY(-12px);
+}
+
+.iconFooter3 {
+  display: inline;
+  width: 50px;
+  border-radius: 5px;
+  transition-duration: 500ms;
+}
+
+.iconFooter3:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #d73340;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #d73340;
+  transform: scale(1.2) rotate(7deg) translateY(-12px);
+}
+
+/*  FORM */
+.formContact {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(./../images/Computer-software-at-office-796254em2352px.jpg);
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 98%;
+  max-height: 500px;
+  height: 700px;
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+H2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+}
+
+.formField {
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(69, 69, 69, 0.8);
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FIRST SECTION INDEX*/
+
+.gridContainerMain {
+  display: grid;
+  width: 100vh;
+  height: 100px;
+}
+
+.gridContain {
+  display: grid;
+  width: 70%;
+  margin-top: 25px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+/*  SECTION INDEX*/
+
+.mainSection {
+  padding: 10px 10px 10px 10px;
+  background-color: #d73340;
+}
+
+.ulSection li {
+  display: inline;
+  margin-left: 15%;
+}
+
+.ulSection img {
+  width: 100px;
+  filter: drop-shadow(5px 5px 5px #181818); /*sombra png*/
+}
+
+.ulSkills {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 98%;
+  text-decoration: none;
+  background-color: #d18675;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.divSkills {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 8%;
+  text-align: center;
+  border: #f7d1b6;
+  border-style: inset;
+  border-radius: 0.2px;
+  box-shadow: 8px 8px #d73340;
+}
+
+.liSkills {
+  display: inline;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #454545;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.h4Skills {
+  font-size: 18px;
+}
+
+/* ABOUT US */
+
+.flexContent {
+  background-color: #d73340;
+  width: 100%;
+  height: 400px;
+}
+
+.flexChild {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #5a130f;
+}
+
+.articleChild {
+  width: 50%;
+  background-color: #18293a;
+}
+.articleChild2 {
+  width: 50%;
+  background-image: url(./../images/designer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.articleChild3 {
+  width: 50%;
+  background-image: url(./../images/Web-design-code-on-screen-1167026de1425px.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.h4Aside {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 26px;
+  padding: 30px 40px 10px 40px;
+  text-align: left;
+  color: #d18675;
+  line-height: 2rem;
+}
+
+.textAside {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+  color: #f7d1b6;
+  line-height: 1.5rem;
+  padding: 15px 40px 25px 40px;
+}
+
+/* WORKS*/
+
+.bannerWorks {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+.imageWorks {
+  width: 100%;
+}
+
+.flexContentWorks {
+  background-color: #d73340;
+  width: 100%;
+  height: 400px;
+}
+
+.flexChildWorks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.articleChildWorks {
+  width: 100vh;
+  padding: 30px 30px 60px 30px;
+  background-color: #3f5d64;
+}
+
+.h4Works {
+  padding-top: 0px;
+  color: #18293a;
+  font-size: 26px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.textWorks {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+  color: #f7d1b6;
+}
+
+.anchorWorks {
+  color: #18293a;
+}
+
+.imageFlexChild1 {
+  width: 40vh;
+  transition-duration: 500ms;
+}
+.imageFlexChild2 {
+  width: 40vh;
+  transition-duration: 500ms;
+}
+.imageFlexChild3 {
+  width: 40vh;
+  transition-duration: 500ms;
+}
+
+.imageFlexChild1:hover {
+  box-shadow: 0 0 20px #f7d1b6;
+  transform: scale(1.3) translateY(-10px) rotate(-2deg);
+}
+
+.imageFlexChild2:hover {
+  box-shadow: 0 0 20px #f7d1b6;
+  transform: scale(1.3) translateY(-10px);
+}
+.imageFlexChild3:hover {
+  box-shadow: 0 0 20px #f7d1b6;
+  transform: scale(1.3) translateY(-10px) rotate(2deg);
+}
+
+/* SERVICES */
+
+.imageServices {
+  background-image: url(./../images/programming-script-text-coding-word.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.h2Center {
+  text-align: initial;
+  padding-left: 80px;
+  color: #d73340;
+}
+
+.textServices {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+  color: #454545;
+}
+
+/* Boton de "Ir Arriba"*/
+#toTopButton {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #d73340; /* Set a background color */
+  color: #f7d1b6; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  transition-duration: 200ms;
+}
+
+#toTopButton:hover {
+  transform: scale(105%);
+  /* box-shadow: 0 0 20px #008c88; */
+  box-shadow: 0 0 20px #d18675;
+}
+
+.gridContainer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #008c88;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 500px;
+  row-gap: 20px;
+}
+
+.gridContent1 {
+  background-color: #18293a;
+  padding: 60px 60px 20px 60px;
+  color: #f7d1b6;
+  line-height: 2rem;
+}
+
+.gridContent2 {
+  background-image: url(/assets/images/uxuismall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gridContent1 h3 {
+  color: #d18675;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.gridContent1 p {
+  font-size: 18px;
+}
+
+.h3Section {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px 60px 20px 60px;
+  color: #18293a;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.pSection {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0 60px 20px 60px;
+  font-size: 18px;
+  color: #18293a;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.skillsContainer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d18675;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  grid-template-rows: 450px;
+  column-gap: 40px;
+  row-gap: 40px;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+.skillsContain {
+  background-color: #f7d1b6;
+  justify-content: center;
+  padding: 50px 40px 50px 40px;
+  transition-duration: 500ms;
+}
+
+.imageSkills {
+  width: 100%;
+}
+
+.iconSkills {
+  width: 150px;
+}
+
+.pGridSkills {
+  text-align: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: #3f5d64;
+  line-height: 1.3rem;
+  font-weight: 400;
+}
+.h3GridSkills {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #18293a;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.skillsContain:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #d73340;
+  transform: scale(1.1) rotate(2deg) translateY(-10px);
+}
+
+/* /////////PRUEBA///////////// */
+
+.gridContainerWorks {
+  background-color: #d18675;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 300px 300px;
+  column-gap: 2%;
+  row-gap: 20px;
+  padding: 10px 10px 10px 10px;
+  justify-content: space-between;
+}
+
+.gridContainWorks {
+  /* background-color: #3f5d64; */
+}
+
+.imageBGWorks1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./../images/uxuismall.jpg);
+}
+
+.imageBGWorks2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./../images/uxuismall.jpg);
+}
