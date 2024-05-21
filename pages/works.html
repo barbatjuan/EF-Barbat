@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Works</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./../assets/styles/styles.css" />
@@ -14,19 +22,35 @@
         class="logo"
         src="./../assets/images/logo-WEB-CODE.jpg"
         alt="Logo de la empresa Web Code"
-        width="150px"
+        width="100px"
       />
-      <ul class="menuBar">
-        <li class="listMenu"><a href="./../index.html" class="menuHover">Home</a></li>
-        <li class="listMenu"><a href="./../pages/skills.html" class="menuHover">Skills</a></li>
-        <li class="listMenu">
-          <a href="./../pages/services.html" class="menuHover">Services</a>
-        </li>
-        
-        <li class="listMenu"><a href="./../pages/aboutus.html" class="menuHover">About Us</a></li>
-        <li class="listMenu"><a href="./../pages/contact.html" class="menuHover">Contact</a></li>
-      </ul>
-    </header>
+      <button id="openBtn" class="openMenu"><i class="bi bi-list"></i></button>
+      <nav id="navMenu" class="navMenu">
+        <button id="closeBtn" class="closeMenu">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <ul class="menuBar">
+          <li class="listMenu">
+            <a href="./../index.html" class="menuHover">Home</a>
+          </li>
+          <li class="listMenu">
+            <a href="./skills.html" class="menuHover">Skills</a>
+          </li>
+          <li class="listMenu">
+            <a href="./services.html" class="menuHover">Services</a>
+          </li>
+          <li class="listMenu active">
+            <a href="./works.html" class="menuHover">Works</a>
+          </li>
+          <li class="listMenu">
+            <a href="./aboutus.html" class="menuHover">About Us</a>
+          </li>
+          <li class="listMenu">
+            <a href="./contact.html" class="menuHover">Contact</a>
+          </li>
+        </ul>
+      </nav>
+     </header>
     <section class="bannerWorks">
       <img
         class="imageWorks"
@@ -123,6 +147,7 @@
           alt="X Web Code"
       /></a>
     </footer>
+    <script src="./../main.js"></script>
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
