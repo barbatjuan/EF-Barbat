@@ -271,14 +271,15 @@ H2 {
   background-color: #d73340;
 }
 
-.ulSection li {
+.ulSection {
   display: inline;
-  margin-left: 15%;
+  /* margin-left: 15%; */
 }
 
-.ulSection img {
+.ulSection {
   width: 100px;
   filter: drop-shadow(5px 5px 5px #181818); /*sombra png*/
+  padding: 10px 10px 10px 10px;
 }
 
 .ulSkills {
@@ -487,7 +488,8 @@ H2 {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
+  border: solid;
+  border-width: 0.2px; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #d73340; /* Set a background color */
   color: #f7d1b6; /* Text color */
@@ -538,8 +540,8 @@ H2 {
 .h3Section {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding: 20px 60px 20px 60px;
-  color: #18293a;
+  /* padding: 20px 60px 20px 60px; */
+  color: #d73340;
   font-size: 26px;
   font-weight: 800;
 }
@@ -547,10 +549,9 @@ H2 {
 .pSection {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding: 0 60px 20px 60px;
-  font-size: 18px;
-  color: #18293a;
-  line-height: 2rem;
+  /* padding: 0 60px 20px 60px; */
+  font-size: 16px;
+  color: #d18675;
   font-weight: 600;
 }
 
@@ -643,10 +644,14 @@ H2 {
 
 .bootstrapH3 {
   color: #d73340;
+  font-weight: 800;
 }
 
 .bootstrapP {
   color: #d18675;
+  font-size: 16px;
+  color: #d18675;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
@@ -655,5 +660,16 @@ H2 {
   }
   .navMenu {
     font-size: 14px;
+  }
+  .bootstrapH3 {
+    font-size: 28px;
+  }
+
+  .h3Section {
+    font-size: 28px;
+  }
+
+  .ulSection {
+    width: 180px;
   }
 }
