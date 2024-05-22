@@ -223,10 +223,15 @@ a {
 
 .contactBody h4 {
   color: #d73340;
+  font-weight: 700;
 }
 .form-contact {
   padding-left: 25%;
   padding-right: 25%;
+}
+
+.form-control:hover {
+  box-shadow: 0 0 20px #d18675;
 }
 
 /*  SECTION INDEX*/
