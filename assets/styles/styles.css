@@ -424,8 +424,14 @@ H2 {
   color: #f7d1b6;
 }
 
-.anchorWorks {
-  color: #18293a;
+.worksA h4 {
+  color: #d73340;
+  padding-top: 10px;
+}
+
+.worksA p {
+  color: #d18675;
+  text-align: justify;
 }
 
 .imageFlexChild1 {
