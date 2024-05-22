@@ -427,11 +427,14 @@ H2 {
 .worksA h4 {
   color: #d73340;
   padding-top: 10px;
+  font-size: 1.8rem;
+  font-weight: 800;
 }
 
 .worksA p {
   color: #d18675;
   text-align: justify;
+  letter-spacing: 1px;
 }
 
 .imageFlexChild1 {
