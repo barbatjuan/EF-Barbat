@@ -3,7 +3,6 @@ body {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin: auto;
   background-color: #18293a;
 }
 
@@ -11,11 +10,11 @@ header {
   background-color: #ffffff;
 }
 
-section {
+/* section {
   background-color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
-}
+} */
 
 .logo {
   width: 150px;
@@ -251,7 +250,7 @@ H2 {
 
 /* FIRST SECTION INDEX*/
 
-.gridContainerMain {
+/* .gridContainerMain {
   display: grid;
   width: 100vh;
   height: 100px;
@@ -263,7 +262,7 @@ H2 {
   margin-top: 25px;
   margin-right: 15%;
   margin-left: 15%;
-}
+} */
 
 /*  SECTION INDEX*/
 
@@ -321,7 +320,7 @@ H2 {
 /* ABOUT US */
 
 .flexContent {
-  background-color: #d73340;
+  background-color: transparent;
   width: 100%;
   height: 400px;
 }
@@ -387,7 +386,7 @@ H2 {
 }
 
 .flexContentWorks {
-  background-color: #d73340;
+  /* background-color: #18293a; */
   width: 100%;
   height: 400px;
 }
@@ -519,20 +518,14 @@ H2 {
   row-gap: 20px;
 }
 
-.gridContent1 {
+/* .gridContent1 {
   background-color: #18293a;
   padding: 60px 60px 20px 60px;
   color: #f7d1b6;
   line-height: 2rem;
-}
+} */
 
-.gridContent2 {
-  background-image: url(/assets/images/uxuismall.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.gridContent1 h3 {
+/* .gridContent1 h3 {
   color: #d18675;
   font-size: 26px;
   font-weight: 800;
@@ -540,7 +533,7 @@ H2 {
 
 .gridContent1 p {
   font-size: 18px;
-}
+} */
 
 .h3Section {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -640,4 +633,27 @@ H2 {
   width: 100%;
   height: 100%;
   background-image: url(./../images/uxuismall.jpg);
+}
+
+.divBoostrapBG {
+  background-image: url(./../images/uxuismall.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bootstrapH3 {
+  color: #d73340;
+}
+
+.bootstrapP {
+  color: #d18675;
+}
+
+@media screen and (max-width: 768px) {
+  .divBoostrapBG {
+    display: none;
+  }
+  .navMenu {
+    font-size: 14px;
+  }
 }
