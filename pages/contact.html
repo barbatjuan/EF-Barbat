@@ -8,14 +8,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-    crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" href="./../assets/styles/styles.css" />
   </head>
-  <body class="bodySkills">
+  <body>
     <header>
       <img
         class="logo"
@@ -32,7 +34,7 @@
           <li class="listMenu">
             <a href="./../index.html" class="menuHover">Home</a>
           </li>
-          <li class="listMenu ">
+          <li class="listMenu">
             <a href="./skills.html" class="menuHover">Skills</a>
           </li>
           <li class="listMenu">
@@ -50,54 +52,81 @@
         </ul>
       </nav>
     </header>
-    <div  class="formContact">
-      <h2 class="contactH2">Contacta con nuestro equipo</h2>
-      <div class="formField">
-      <form>
-        <label for="firstNameId">Name</label>
-        <input
-          size="50%"
-          type="text"
-          id="firstNameId"
-          name="firstNameForm"
-          placeholder="Name"
-        />
-      </div>
-      <div class="formField">
-        <label for="phoneNumberId">Phone</label>
-        <input type="tel" id="phoneNumberId" 
-        size="50%"
-        name="phoneNumberForm" 
-        placeholder="Phone Number"
-        width="50%"/>
-      </div>
-      <div class="formField">
-        <label for="emailId">E mail</label>
-        <input type="email" id="emailId" 
-        size="50%"
-        name="email" 
-        placeholder="Email"
-        width="50%"/>
-      </div>
-      <div class="formField">
-        <label for="textAreaId">Your message</label>
-        <textarea name="textArea" 
-        id="textAreaId" 
-        cols="30" rows="10"
-         placeholder="Your message here">
-        </textarea>
-      </div>
-        <div class="formField">
-          <input type="button" value="Nada" />
-          <input type="reset" value="Limpia todo" />
-          <input type="submit" value="Enviar" />
+    <div class="contactBody">
+      <div class="container mt-4 noFilterContact">
+        <div class="col mb-3 form-contact">
+          <label for="formGroupExampleInput" class="form-label py-2"
+            ><h4>Name</h4></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Luis Suarez"
+          />
         </div>
-        
-      </form>
+        <div class="mb-3 form-contact">
+          <label for="formGroupExampleInput2" class="form-label py-2"
+            ><h4>Email</h4></label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="luisuarez@webcode.com"
+          />
+        </div>
+        <fieldset class="row mb-3 form-contact">
+          <legend class="col-form-label col-sm-2 pt-0">
+            <h4>Interest</h4>
+          </legend>
+
+          <div class="col-sm-10">
+            <div class="form-check interestPadding">
+              <input
+                class="form-check-input px-2"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="gridRadios1">
+                Web Site
+              </label>
+            </div>
+            <div class="form-check interestPadding">
+              <input
+                class="form-check-input px-2"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="gridRadios2">
+                Software
+              </label>
+            </div>
+            <div class="form-check interestPadding">
+              <input
+                class="form-check-input px-2"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios3"
+                value="option3"
+              />
+              <label class="form-check-label" for="gridRadios3">
+                Social Media
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <button id="toTopButton">
+          <a href="./../pages/contact.html" target="_top"> Volver a arriba </a>
+        </button>
+      </div>
     </div>
-    <button id="toTopButton">
-      <a href="./../pages/contact.html" target="_top"> Volver a arriba </a>
-    </button>
+
     <footer class="footerSocial">
       <a
         class="iconHover1"
@@ -137,6 +166,10 @@
       /></a>
     </footer>
     <script src="./../main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
