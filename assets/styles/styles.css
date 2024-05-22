@@ -10,12 +10,6 @@ header {
   background-color: #ffffff;
 }
 
-/* section {
-  background-color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
-
 .logo {
   width: 150px;
   display: block;
@@ -248,22 +242,6 @@ H2 {
   margin-right: auto;
 }
 
-/* FIRST SECTION INDEX*/
-
-/* .gridContainerMain {
-  display: grid;
-  width: 100vh;
-  height: 100px;
-}
-
-.gridContain {
-  display: grid;
-  width: 70%;
-  margin-top: 25px;
-  margin-right: 15%;
-  margin-left: 15%;
-} */
-
 /*  SECTION INDEX*/
 
 .mainSection {
@@ -273,7 +251,6 @@ H2 {
 
 .ulSection {
   display: inline;
-  /* margin-left: 15%; */
 }
 
 .ulSection {
@@ -320,7 +297,7 @@ H2 {
 
 /* ABOUT US */
 
-.flexContent {
+/* .flexContent {
   background-color: transparent;
   width: 100%;
   height: 400px;
@@ -332,23 +309,27 @@ H2 {
   display: flex;
   flex-direction: row;
   background-color: #5a130f;
-}
+} */
 
-.articleChild {
+/* .articleChild {
   width: 50%;
   background-color: #18293a;
-}
+} */
 .articleChild2 {
-  width: 50%;
+  width: 100%;
+  height: 300px;
   background-image: url(./../images/designer.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 .articleChild3 {
-  width: 50%;
+  width: 100%;
+  height: 300px;
   background-image: url(./../images/Web-design-code-on-screen-1167026de1425px.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -387,7 +368,6 @@ H2 {
 }
 
 .flexContentWorks {
-  /* background-color: #18293a; */
   width: 100%;
   height: 400px;
 }
@@ -534,23 +514,6 @@ H2 {
   grid-template-rows: 500px;
   row-gap: 20px;
 }
-
-/* .gridContent1 {
-  background-color: #18293a;
-  padding: 60px 60px 20px 60px;
-  color: #f7d1b6;
-  line-height: 2rem;
-} */
-
-/* .gridContent1 h3 {
-  color: #d18675;
-  font-size: 26px;
-  font-weight: 800;
-}
-
-.gridContent1 p {
-  font-size: 18px;
-} */
 
 .h3Section {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
