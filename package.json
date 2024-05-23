@@ -1,0 +1,28 @@
+{
+  "name": "web-code",
+  "version": "1.0.0",
+  "description": "Web developer agency",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbatjuan/PreEntrega2Barbat.git"
+  },
+  "keywords": [
+    "web",
+    "design",
+    "developer",
+    "software",
+    "social",
+    "media",
+    "marketing"
+  ],
+  "author": "Juan I Barbat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbatjuan/PreEntrega2Barbat/issues"
+  },
+  "homepage": "https://github.com/barbatjuan/PreEntrega2Barbat#readme"
+}
