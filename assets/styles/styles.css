@@ -422,6 +422,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-position: top;
   overflow: hidden;
 }
 
@@ -658,6 +659,11 @@ a {
   background-color: #d73340;
   box-shadow: 0 0 10px #d18675;
   border: #d18675;
+}
+
+strong {
+  color: #18293a;
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=styles.css.map */
