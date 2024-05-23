@@ -456,6 +456,7 @@ a {
 }
 
 .bootstrapServices {
+  width: 100%;
   background-color: #ffffff;
 }
 /* Boton de "Ir Arriba"*/
@@ -553,7 +554,7 @@ a {
 
 .skillsContain:hover {
   transform: scale(1.2);
-  box-shadow: 0 0 20px #d73340;
+  box-shadow: 0 0 20px #2b2b2b;
   transform: scale(1.1) rotate(2deg) translateY(-10px);
 }
 
