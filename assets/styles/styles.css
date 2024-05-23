@@ -252,6 +252,11 @@ a {
   width: 100px;
   filter: drop-shadow(5px 5px 5px #181818); /*sombra png*/
   padding: 10px 10px 10px 10px;
+  transition-duration: 300ms;
+}
+
+.ulSection:hover {
+  scale: 110%;
 }
 
 .ulSkills {
@@ -652,4 +657,16 @@ a {
   .imageServices {
     display: none;
   }
+}
+
+.btn-primary {
+  background-color: #d18675;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #d73340;
+  border-color: transparent;
+  transform: scale(105%);
+  box-shadow: 0 0 10px #d18675;
 }
