@@ -1,3 +1,4 @@
+/* Variables */
 body {
   width: 100%;
   height: 100%;
@@ -147,9 +148,7 @@ a {
   width: 50px;
   height: 50px;
   background-color: #d73340;
-  transform: scale(1.2);
   box-shadow: 0 0 20px #d73340;
-  transform: scale(1.2) rotate(-15deg) translateY(-12px);
 }
 
 .iconFooter2 {
@@ -163,9 +162,7 @@ a {
   width: 50px;
   height: 50px;
   background-color: #d73340;
-  transform: scale(1.2);
   box-shadow: 0 0 20px #d73340;
-  transform: scale(1.2) rotate(-7deg) translateY(-12px);
 }
 
 .iconFooter4 {
@@ -179,9 +176,7 @@ a {
   width: 50px;
   height: 50px;
   background-color: #d73340;
-  transform: scale(1.2);
   box-shadow: 0 0 20px #d73340;
-  transform: scale(1.2) rotate(15deg) translateY(-12px);
 }
 
 .iconFooter3 {
@@ -195,11 +190,39 @@ a {
   width: 50px;
   height: 50px;
   background-color: #d73340;
-  transform: scale(1.2);
   box-shadow: 0 0 20px #d73340;
-  transform: scale(1.2) rotate(7deg) translateY(-12px);
 }
 
+@media screen and (max-width: 768px) {
+  .iconFooter {
+    display: inline;
+    width: 30px;
+    border-radius: 5px;
+    transition-duration: 500ms;
+  }
+  .iconFooter:hover {
+    background-color: #d73340;
+    box-shadow: 0 0 10px #d73340;
+  }
+  .iconFooter2 {
+    display: inline;
+    width: 30px;
+    border-radius: 5px;
+    transition-duration: 500ms;
+  }
+  .iconFooter3 {
+    display: inline;
+    width: 30px;
+    border-radius: 5px;
+    transition-duration: 500ms;
+  }
+  .iconFooter4 {
+    display: inline;
+    width: 30px;
+    border-radius: 5px;
+    transition-duration: 500ms;
+  }
+}
 /*contact*/
 .contactBody {
   background-image: url(./../images/desarrollo-graficas3.jpg);
@@ -209,6 +232,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   color: #d18675;
+  filter: drop-shadow(5px 5px 5px #181818);
 }
 
 .contactBody h4 {
@@ -229,6 +253,7 @@ a {
 .mainSection {
   padding: 10px 10px 10px 10px;
   background-color: #d73340;
+  filter: drop-shadow(0px 10px 10px #181818);
 }
 
 .interestPadding {
@@ -330,6 +355,7 @@ a {
   width: 100%;
   max-height: 500px;
   overflow: hidden;
+  filter: drop-shadow(5px 5px 5px #181818);
 }
 
 .imageWorks {
@@ -446,6 +472,7 @@ a {
 .bootstrapServices {
   width: 100%;
   background-color: #ffffff;
+  filter: drop-shadow(5px 5px 5px #181818);
 }
 
 /* Boton de "Ir Arriba"*/
@@ -571,17 +598,17 @@ a {
   background-image: url(./../images/uxuismall.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  filter: drop-shadow(5px 5px 5px #181818);
 }
 
 .bootstrapH3 {
-  color: #d73340;
+  color: #18293a;
   font-weight: 800;
 }
 
 .bootstrapP {
-  color: #d18675;
   font-size: 16px;
-  color: #d18675;
+  color: #18293a;
   font-weight: 600;
 }
 
@@ -652,13 +679,13 @@ a {
 .form-check-input:checked {
   background-color: #d73340;
   box-shadow: 0 0 10px #d18675;
-  border: #d18675;
+  border: #f7d1b6;
 }
 
 .form-check-input:active {
   background-color: #d73340;
-  box-shadow: 0 0 10px #d18675;
-  border: #d18675;
+  box-shadow: 0 0 10px #f7d1b6;
+  border: #f7d1b6;
 }
 
 strong {
