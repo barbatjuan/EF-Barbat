@@ -512,12 +512,12 @@ a {
 }
 
 .skillsContainer {
-  background-color: #d18675;
+  background-color: #18293a;
   align-items: center;
 }
 
 .bodySkills {
-  background-color: #d18675;
+  background-color: #18293a;
 }
 
 .skillsContain {
@@ -690,4 +690,16 @@ $base-color: #18293a;
 strong {
   color: $base-color;
   font-weight: 900;
+}
+
+.footerWebCode {
+  color: #f7d1b6;
+  font-size: small;
+  letter-spacing: 0.3rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  .strongFooter {
+    color: #d18675;
+  }
 }
