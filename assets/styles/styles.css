@@ -20,7 +20,6 @@ header {
 }
 .logo:hover {
   transform: scale(1.2);
-  filter: blur(1px);
 }
 
 .abrirMenu {
@@ -677,6 +676,7 @@ strong {
   color: #d18675;
 }
 
+/* Barra de navegacion para smartphone*/
 @media screen and (max-width: 550px) {
   .navMenu {
     opacity: 0;

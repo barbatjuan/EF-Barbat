@@ -24,7 +24,6 @@ header {
   transition-duration: 500ms;
   &:hover {
     transform: scale(1.2);
-    filter: blur(1px);
   }
 }
 
@@ -701,6 +700,8 @@ strong {
     color: $light-orange;
   }
 }
+
+/* Barra de navegacion para smartphone*/
 
 @media screen and (max-width: 550px) {
   .navMenu {
