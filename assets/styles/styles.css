@@ -65,47 +65,6 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 550px) {
-  .navMenu {
-    opacity: 0;
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap: 1rem;
-    position: absolute;
-    background-color: #18293a;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding: 2rem;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
-  }
-  .navMenu.visible {
-    opacity: 1;
-    visibility: visible;
-  }
-  .menuBar {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  }
-  .openMenu,
-  .closeMenu {
-    display: block;
-    border: 0;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: #d18675;
-  }
-  .openMenu {
-    color: #18293a;
-    font-size: 2rem;
-  }
-  a {
-    text-align: end;
-  }
-}
 .menuHover:hover {
   width: 100%;
   background-color: #d18675;
@@ -249,7 +208,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   color: #d18675;
-  filter: drop-shadow(5px 5px 5px #181818);
 }
 
 .contactBody h4 {
@@ -270,7 +228,6 @@ a {
 .mainSection {
   padding: 10px 10px 10px 10px;
   background-color: #d73340;
-  filter: drop-shadow(0px 10px 10px #181818);
 }
 
 .interestPadding {
@@ -372,7 +329,6 @@ a {
   width: 100%;
   max-height: 500px;
   overflow: hidden;
-  filter: drop-shadow(5px 5px 5px #181818);
 }
 
 .imageWorks {
@@ -720,6 +676,48 @@ strong {
 }
 .footerWebCode .strongFooter {
   color: #d18675;
+}
+
+@media screen and (max-width: 550px) {
+  .navMenu {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    background-color: #18293a;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
+  }
+  .navMenu.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .menuBar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .openMenu,
+  .closeMenu {
+    display: block;
+    border: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #d18675;
+  }
+  .openMenu {
+    color: #18293a;
+    font-size: 2rem;
+  }
+  a {
+    text-align: end;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
