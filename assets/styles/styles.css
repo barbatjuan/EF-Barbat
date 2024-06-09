@@ -73,16 +73,16 @@ a {
 }
 
 .listMenu.active {
-  background-color: #d73340;
+  background-color: #d18675;
   color: #18293a;
 }
 
 .listMenu.active a {
-  color: #f7d1b6;
+  color: #18293a;
   font-weight: bolder;
 }
 .listMenu.active a:hover {
-  color: #3f5d64;
+  background-color: #f7d1b6;
 }
 
 .mainImage {
@@ -569,7 +569,7 @@ a {
 }
 
 .divBoostrapBG {
-  background-image: url(./../images/uxuismall.jpg);
+  background-image: url(./../images/uxuismall.webp);
   background-repeat: no-repeat;
   background-position: center;
   filter: drop-shadow(5px 5px 5px #181818);

@@ -80,16 +80,16 @@ a {
 }
 
 .listMenu.active {
-  background-color: $full-orange;
+  background-color: $light-orange;
   color: $base-color;
 }
 
 .listMenu.active a {
-  color: $ultra-light-orange;
+  color: $base-color;
   font-weight: bolder;
 
   &:hover {
-    color: $light-blue;
+    background-color: $ultra-light-orange;
   }
 }
 
@@ -588,7 +588,7 @@ a {
 }
 
 .divBoostrapBG {
-  background-image: url(./../images/uxuismall.jpg);
+  background-image: url(./../images/uxuismall.webp);
   background-repeat: no-repeat;
   background-position: center;
   filter: drop-shadow(5px 5px 5px #181818);
