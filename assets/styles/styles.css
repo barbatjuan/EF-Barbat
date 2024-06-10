@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables */
 body {
   width: 100%;
@@ -436,8 +437,8 @@ a {
 .textServices {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: justify;
   color: #18293a;
   padding-bottom: 20px;
@@ -642,6 +643,11 @@ a {
     display: none;
   }
 }
+.imageFlexChild2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn-primary {
   background-color: #d18675;
   border-color: transparent;
@@ -683,7 +689,6 @@ strong {
   color: #d18675;
 }
 
-/* Barra de navegacion para smartphone*/
 @media screen and (max-width: 550px) {
   .navMenu {
     opacity: 0;
@@ -692,13 +697,16 @@ strong {
     flex-direction: column;
     align-items: end;
     gap: 1rem;
-    position: absolute;
+    position: fixed;
     background-color: #18293a;
     top: 0;
     right: 0;
     bottom: 0;
+    width: 50%; /* Solo ocupa la mitad derecha */
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    overflow-y: auto;
   }
   .navMenu.visible {
     opacity: 1;
@@ -721,8 +729,15 @@ strong {
     color: #18293a;
     font-size: 2rem;
   }
-  a {
-    text-align: end;
+  /* Estilos para la parte izquierda de la pantalla */
+  .webContent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%; /* Ocupa la mitad izquierda */
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7); /* Opacidad del 70% */
+    z-index: 999; /* Asegura que la web esté encima del menú */
   }
 }
 
