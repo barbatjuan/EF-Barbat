@@ -643,11 +643,6 @@ a {
     display: none;
   }
 }
-.imageFlexChild2 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .btn-primary {
   background-color: #d18675;
   border-color: transparent;
@@ -686,7 +681,8 @@ strong {
   justify-content: end;
 }
 .footerWebCode .strongFooter {
-  color: #d18675;
+  color: #d73340;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 550px) {

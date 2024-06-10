@@ -669,11 +669,6 @@ a {
   }
 }
 
-.imageFlexChild2 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .btn-primary {
   background-color: $light-orange;
   border-color: transparent;
@@ -712,7 +707,8 @@ strong {
   justify-content: end;
 
   .strongFooter {
-    color: $light-orange;
+    color: $full-orange;
+    font-weight: 700;
   }
 }
 
