@@ -322,6 +322,7 @@ a {
   color: #f7d1b6;
   line-height: 1.5rem;
   padding: 15px 40px 25px 40px;
+  text-align: justify;
 }
 
 /* WORKS*/
@@ -382,16 +383,25 @@ a {
 }
 
 .imageFlexChild1 {
+  width: 99%;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 40vh;
   transition-duration: 1s;
 }
 
 .imageFlexChild2 {
+  width: 99%;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 40vh;
   transition-duration: 1s;
 }
 
 .imageFlexChild3 {
+  width: 99%;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 40vh;
   transition-duration: 1s;
 }
@@ -581,7 +591,27 @@ a {
   font-weight: 600;
 }
 
+@media screen and (max-width: 1200px) {
+  .imageFlexChild1 {
+    width: 99%;
+  }
+  .imageFlexChild2 {
+    width: 99%;
+  }
+  .imageFlexChild3 {
+    width: 99%;
+  }
+}
 @media screen and (max-width: 1100px) {
+  .imageFlexChild1 {
+    width: 99%;
+  }
+  .imageFlexChild2 {
+    width: 99%;
+  }
+  .imageFlexChild3 {
+    width: 99%;
+  }
   .imageServices {
     width: 1100px;
     height: 400px;
@@ -592,6 +622,22 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .imageFlexChild1 {
+    width: 99%;
+  }
+  .imageFlexChild2 {
+    width: 99%;
+  }
+  .imageFlexChild3 {
+    width: 99%;
+  }
+  .footerWebCode {
+    font-size: 10px;
+  }
+  .form-contact {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .divBoostrapBG {
     display: none;
   }
@@ -629,6 +675,15 @@ a {
   }
 }
 @media screen and (max-width: 440px) {
+  .imageFlexChild1 {
+    width: 99%;
+  }
+  .imageFlexChild2 {
+    width: 99%;
+  }
+  .imageFlexChild3 {
+    width: 99%;
+  }
   .imageServices {
     display: none;
   }
@@ -705,6 +760,24 @@ strong {
 }
 
 @media screen and (max-width: 550px) {
+  .footerWebCode {
+    font-size: 0.6rem;
+  }
+  .h4Aside {
+    font-size: 1.2rem;
+  }
+  .textAside {
+    font-size: 0.8rem;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .ulSection {
+    width: 180px;
+  }
   .form-contact {
     padding-left: 0px;
     padding-right: 0px;
@@ -734,7 +807,7 @@ strong {
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50%; /* Solo ocupa la mitad derecha */
+    width: 60%;
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
     height: 100vh;
@@ -786,7 +859,21 @@ strong {
   .whatsapp-button:hover {
     transform: scale(1.1);
   }
+  .bootstrapP {
+    font-size: 0.8rem;
+  }
+  .pSection {
+    font-size: 0.8rem;
+  }
 }
+.infoWebCoders {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 25px;
+  color: #f7d1b6;
+}
+
 /* estilos.css */
 
 /*# sourceMappingURL=styles.css.map */
