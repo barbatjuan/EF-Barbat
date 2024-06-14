@@ -804,6 +804,7 @@ strong {
   }
   .ulSection {
     width: 180px;
+    filter: none;
   }
   .form-contact {
     padding-left: 0px;
@@ -821,6 +822,48 @@ strong {
   .bi-chevron-double-up {
     color: #d73340;
     background-color: transparent;
+  }
+  .navMenu {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: fixed;
+    background-color: #18293a;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .contactBody {
+    text-align: left;
+  }
+  .navMenu.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .menuBar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .openMenu,
+  .closeMenu {
+    display: block;
+    border: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #d18675;
+  }
+  .openMenu {
+    color: #18293a;
+    font-size: 2rem;
   }
   .webContent {
     position: fixed;
@@ -858,54 +901,6 @@ strong {
   text-align: center;
   margin-top: 25px;
   color: #f7d1b6;
-}
-
-.navMenu {
-  opacity: 0;
-  visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 1rem;
-  position: fixed;
-  background-color: #18293a;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 60%;
-  padding: 2rem;
-  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
-  height: 100vh;
-  overflow-y: auto;
-}
-
-.contactBody {
-  text-align: left;
-}
-
-.navMenu.visible {
-  opacity: 1;
-  visibility: visible;
-}
-
-.menuBar {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
-.openMenu,
-.closeMenu {
-  display: block;
-  border: 0;
-  font-size: 1.5rem;
-  background-color: transparent;
-  color: #d18675;
-}
-
-.openMenu {
-  color: #18293a;
-  font-size: 2rem;
 }
 
 /* estilos.css */
