@@ -241,16 +241,15 @@ a {
 
 .ulSection {
   display: inline;
-}
-
-.ulSection {
   width: 100px;
   padding: 10px 10px 10px 10px;
   transition-duration: 300ms;
+  filter: grayscale(0.8);
 }
 
 .ulSection:hover {
   scale: 110%;
+  filter: none;
 }
 
 .ulSkills {
@@ -293,6 +292,11 @@ a {
   background-attachment: fixed;
   background-repeat: no-repeat;
   overflow: hidden;
+  transition-duration: 1s;
+  filter: sepia(1);
+}
+.articleChild2:hover {
+  filter: none;
 }
 
 .articleChild3 {
@@ -303,11 +307,16 @@ a {
   background-attachment: fixed;
   background-repeat: no-repeat;
   overflow: hidden;
+  transition-duration: 1s;
+  filter: sepia(1);
+}
+.articleChild3:hover {
+  filter: none;
 }
 
 .h4Aside {
   font-size: 26px;
-  padding: 30px 40px 10px 40px;
+  padding: 30px 0 10px 0;
   text-align: left;
   color: #d73340;
   font-weight: 800;
@@ -316,12 +325,10 @@ a {
 
 .textAside {
   font-size: 16px;
-  padding-left: 40px;
-  padding-right: 40px;
   text-align: left;
   color: #f7d1b6;
   line-height: 1.5rem;
-  padding: 15px 40px 25px 40px;
+  padding: 15px 0 25px 0;
   text-align: justify;
 }
 
@@ -384,26 +391,32 @@ a {
 
 .imageFlexChild1 {
   width: 99%;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 40vh;
   transition-duration: 1s;
+  filter: grayscale(0.8);
+}
+.imageFlexChild1:hover {
+  filter: none;
 }
 
 .imageFlexChild2 {
   width: 99%;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 40vh;
+  filter: grayscale(0.8);
   transition-duration: 1s;
+}
+.imageFlexChild2:hover {
+  filter: none;
 }
 
 .imageFlexChild3 {
   width: 99%;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 40vh;
   transition-duration: 1s;
+  filter: grayscale(0.8);
+}
+.imageFlexChild3:hover {
+  filter: none;
 }
 
 .imageFlexChild1:hover {
@@ -603,6 +616,12 @@ a {
   }
 }
 @media screen and (max-width: 1100px) {
+  .articleChild3 {
+    filter: none;
+  }
+  .articleChild2 {
+    filter: none;
+  }
   .imageFlexChild1 {
     width: 99%;
   }
@@ -622,6 +641,15 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .h4Aside {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .textAside {
+    font-size: 0.8rem;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
   .imageFlexChild1 {
     width: 99%;
   }
@@ -763,14 +791,6 @@ strong {
   .footerWebCode {
     font-size: 0.6rem;
   }
-  .h4Aside {
-    font-size: 1.2rem;
-  }
-  .textAside {
-    font-size: 0.8rem;
-    padding-left: 0%;
-    padding-right: 0%;
-  }
   .row {
     margin-left: 0px;
     margin-right: 10px;
@@ -861,6 +881,7 @@ strong {
   }
   .bootstrapP {
     font-size: 0.8rem;
+    text-align: justify;
   }
   .pSection {
     font-size: 0.8rem;
