@@ -665,14 +665,17 @@ a {
 
   .imageFlexChild1 {
     width: 99%;
+    filter: none;
   }
 
   .imageFlexChild2 {
     width: 99%;
+    filter: none;
   }
 
   .imageFlexChild3 {
     width: 99%;
+    filter: none;
   }
   .footerWebCode {
     font-size: 10px;
@@ -699,6 +702,7 @@ a {
 
   .ulSection {
     width: 180px;
+    filter: none;
   }
 
   .textServices {
@@ -728,14 +732,17 @@ a {
 @media screen and (max-width: 440px) {
   .imageFlexChild1 {
     width: 99%;
+    filter: none;
   }
 
   .imageFlexChild2 {
     width: 99%;
+    filter: none;
   }
 
   .imageFlexChild3 {
     width: 99%;
+    filter: none;
   }
 
   .imageServices {
@@ -849,54 +856,6 @@ strong {
     background-color: transparent;
   }
 
-  .navMenu {
-    opacity: 0;
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap: 1rem;
-    position: fixed;
-    background-color: $base-color;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 60%;
-    padding: 2rem;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  .contactBody {
-    text-align: left;
-  }
-
-  .navMenu.visible {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .menuBar {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  }
-
-  .openMenu,
-  .closeMenu {
-    display: block;
-    border: 0;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: $light-orange;
-  }
-
-  .openMenu {
-    color: $base-color;
-    font-size: 2rem;
-  }
-
   .webContent {
     position: fixed;
     top: 0;
@@ -938,4 +897,54 @@ strong {
   margin-top: 25px;
   color: $ultra-light-orange;
 }
+
+
+.navMenu {
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+  position: fixed;
+  background-color: $base-color;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  padding: 2rem;
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.contactBody {
+  text-align: left;
+}
+
+.navMenu.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menuBar {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.openMenu,
+.closeMenu {
+  display: block;
+  border: 0;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: $light-orange;
+}
+
+.openMenu {
+  color: $base-color;
+  font-size: 2rem;
+}
+
 /* estilos.css */
