@@ -521,6 +521,7 @@ a {
 .skillsContainer {
   background-color: $base-color;
   align-items: center;
+  filter: none;
 }
 
 .bodySkills {
@@ -530,7 +531,8 @@ a {
 .skillsContain {
   background-color: $ultra-light-orange;
   justify-content: center;
-  transition-duration: 500ms;
+  transition-duration: 900ms;
+  filter: none;
 }
 
 .imageSkills {
@@ -624,6 +626,10 @@ a {
 }
 
 @media screen and (max-width: 1100px) {
+  .skillsContain {
+    filter: none;
+  }
+
   .articleChild3 {
     filter: none;
   }
@@ -649,7 +655,15 @@ a {
     width: 1100;
     max-height: 400px;
   }
+  .bootstrapP {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .pSection {
+    font-size: 0.8rem;
+  }
 }
+
 
 @media screen and (max-width: 768px) {
   .h4Aside {
@@ -930,13 +944,7 @@ strong {
   .whatsapp-button:hover {
     transform: scale(1.1);
   }
-  .bootstrapP {
-    font-size: 0.8rem;
-    text-align: justify;
-  }
-  .pSection {
-    font-size: 0.8rem;
-  }
+ 
 }
 
 .infoWebCoders {
