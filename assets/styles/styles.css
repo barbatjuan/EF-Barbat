@@ -469,6 +469,7 @@ a {
 
 /* Boton de "Ir Arriba"*/
 #toTopButton {
+  margin: 5px 5px 5px 5px;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -776,7 +777,7 @@ strong {
   justify-content: end;
 }
 .footerWebCode .strongFooter {
-  color: #d73340;
+  color: #d18675;
   font-weight: 700;
 }
 

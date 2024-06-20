@@ -475,6 +475,7 @@ a {
 }
 /* Boton de "Ir Arriba"*/
 #toTopButton {
+  margin: 5px 5px 5px 5px;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -806,7 +807,7 @@ strong {
   justify-content: end;
 
   .strongFooter {
-    color: $full-orange;
+    color: $light-orange;
     font-weight: 700;
   }
 }
