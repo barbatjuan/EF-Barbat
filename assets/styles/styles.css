@@ -207,7 +207,8 @@ a {
 /*contact*/
 .contactBody {
   background-image: url(./../images/desarrollo-graficas3.webp);
-  padding-top: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
