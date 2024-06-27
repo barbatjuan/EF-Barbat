@@ -333,6 +333,16 @@ a {
   text-align: justify;
 }
 
+.aGoogle p {
+  color: #18293a;
+  text-decoration: none;
+}
+
+.aGoogle a {
+  color: #18293a;
+  text-decoration: none;
+}
+
 /* WORKS*/
 .bannerWorks {
   width: 100%;
