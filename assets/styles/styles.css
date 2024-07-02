@@ -1023,6 +1023,9 @@ strong {
   }
   .btnSkills {
     margin-bottom: 20px;
+    font-size: 70%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
   .row {
     margin-left: 0px;
