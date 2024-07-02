@@ -485,6 +485,12 @@ a {
   width: 100%;
   background-color: $ultra-light-orange;
 }
+
+.bootstrapServices {
+  width: 100%;
+  height: 100%;
+}
+
 /* Boton de "Ir Arriba"*/
 #toTopButton {
   margin: 5px 5px 5px 5px;
@@ -513,11 +519,130 @@ a {
   height: 500px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #008c88;
   grid-template-columns: 50% 50%;
   grid-template-rows: 500px;
   row-gap: 20px;
 }
+
+.gridContainerSkills {
+  display: grid;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 50% 50%;
+  
+}
+
+.gridContain {
+  width: 100%;
+  height: 90%;
+  background-color: $ultra-light-orange;
+}
+
+.divSkillsHeader {
+  width: 100%;
+  height: 50%;
+  background-color: $ultra-light-orange;
+  padding: 50px 100px 10px 100px;
+}
+
+.playwrite-ca {
+  text-align: center;
+  font-size: 2rem;
+  color: $base-color;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+
+.h4HeaderSkills {
+  text-align: justify;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: $base-color;
+}
+
+.linea {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 2px;
+  background-color: #18293a;
+  margin: 10px auto 40px auto; /* Centrar horizontalmente */
+}
+
+.bootstrapServicesIMG {
+  background-image: url(./../images/web1.jpg);
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.bootstrapServicesIMG2 {
+  background-image: url(./../images/web2.jpg);
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.bootstrapServicesIMG3 {
+  background-image: url(./../images/web3.jpg);
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.bootstrapServicesIMG4 {
+  background-image: url(./../images/web4.jpg);
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.h3Skills {
+  font-size: 3.5rem;
+  color: $base-color;
+  font-weight: 800;
+  padding: 5% 5% 5% 5%;
+  letter-spacing: 2px;
+}
+
+.pSkills {
+  font-size: 1.2rem;
+  color: $base-color;
+  padding: 0% 5% 5% 5%;
+}
+
+.spanSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  align-content: end;
+  padding-right: 5%;
+}
+
+.btnSkills {
+  width: 100px;
+  height: 50px;
+  color: $base-color;
+  border-radius: 7%;
+  border-color: $base-color;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 3px;
+  font-weight: 600;
+  transition-duration: 500ms;
+  &:hover {
+    background-color: $base-color;
+    color: $ultra-light-orange;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  }
+}
+
 
 .h3Section {
   color: $full-orange;
@@ -545,12 +670,14 @@ a {
   background-color: $ultra-light-orange;
   justify-content: center;
   transition-duration: 900ms;
-  filter: none;
 }
 
 .imageSkills {
+  background-image: url(./../images/htmlbackground.webp);
   width: 100%;
-  max-height: 700px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .iconSkills {
@@ -642,6 +769,14 @@ a {
     filter: none;
   }
 
+  .h3Skills {
+    font-size: 2.5rem;
+  }
+  
+  .pSkills {
+    font-size: 1rem;
+  }
+
   .articleChild3 {
     filter: none;
   }
@@ -683,6 +818,70 @@ a {
     text-align: center;
   }
 
+  .h3Skills {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+
+  .spanSkills {
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+  }
+  
+  .btnSkills {
+    margin-bottom: 5px;
+    width: 70px;
+    height: 40px;
+    border-radius: 5%;
+    border-width: 2px;
+    font-weight: 200;
+  }
+
+  .pSkills {
+    font-size: 0.8rem;
+    padding-bottom: 0%;
+    padding-top: 0px;
+  }
+
+  .bootstrapServicesIMG {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .bootstrapServicesIMG2 {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .bootstrapServicesIMG3 {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .bootstrapServicesIMG4 {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+
+  .imageSkills {
+    height: 300px;
+    background-position: bottom;
+  }
   .skillsContain:hover {
     box-shadow: 0 0 20px #2b2b2b;
     transform: scale(1) rotate(2deg) translateY(-5px);
@@ -761,9 +960,14 @@ a {
 }
 
 @media screen and (max-width: 440px) {
+
   .imageFlexChild1 {
     width: 99%;
     filter: none;
+  }
+
+  .imageSkills {
+    height: 250px;
   }
 
   .imageFlexChild2 {
@@ -856,6 +1060,23 @@ strong {
 @media screen and (max-width: 550px) {
   .footerWebCode {
     font-size: 0.6rem;
+  }
+
+  .playwrite-ca {
+    font-size: 1.5rem;
+  }
+
+  .h4HeaderSkills {
+    font-size: 1rem;
+  }
+
+  .divSkillsHeader {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .btnSkills {
+    margin-bottom: 20px;
   }
 
   .row {
@@ -970,6 +1191,94 @@ strong {
   text-align: center;
   margin-top: 25px;
   color: $ultra-light-orange;
+}
+
+/* Estilos generales */
+.gridContainerSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gridContain {
+  flex: 1 1 48%; /* Por defecto ocupa el 48% del ancho del contenedor */
+}
+
+/* Imágenes de servicios */
+
+
+/* Responsivo para pantallas menores de 550px */
+@media (max-width: 550px) {
+  .gridContainerSkills {
+    flex-direction: column; /* Cambia la dirección a columna */
+  }
+
+  .bootstrapServicesIMG {
+    visibility: hidden;
+    display: none;
+  }
+
+  .bootstrapServicesIMG {
+    visibility: hidden;
+    display: none;
+  }
+
+  .bootstrapServicesIMG2 {
+    visibility: hidden;
+    display: none;
+  }
+  .bootstrapServicesIMG3 {
+    visibility: hidden;
+    display: none;
+  }
+
+
+  .bootstrapServicesIMG550 {
+    background-image: url(./../images/web1.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .bootstrapServicesIMG2550 {
+    background-image: url(./../images/web2.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .bootstrapServicesIMG3550 {
+    background-image: url(./../images/web3.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .gridContain {
+    flex: 1 1 100%; /* Ocupa el 100% del ancho del contenedor */
+    width: 100%; /* Asegura que el contenedor también ocupe el ancho completo */
+  }
+
+  .gridContain:nth-child(odd) {
+    order: 2; /* Coloca los elementos de texto por debajo de las imágenes */
+  }
+
+  .gridContain:nth-child(even) {
+    order: 1; /* Coloca las imágenes por encima de los elementos de texto */
+  }
+
+  .bootstrapServicesIMG,
+  .bootstrapServicesIMG2,
+  .bootstrapServicesIMG3,
+  .bootstrapServicesIMG4 {
+    width: 100%; /* Ocupa el ancho completo */
+  }
 }
 
 /* estilos.css */
