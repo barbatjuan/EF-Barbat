@@ -473,14 +473,15 @@ a {
   padding-bottom: 20px;
 }
 
-.bootstrapServices {
-  width: 100%;
+.mainBG {
   background-color: #f7d1b6;
 }
 
 .bootstrapServices {
   width: 100%;
   height: 100%;
+  background-color: #f7d1b6;
+  padding-bottom: 0px;
 }
 
 /* Boton de "Ir Arriba"*/
@@ -547,7 +548,6 @@ a {
 }
 
 .h4HeaderSkills {
-  text-align: justify;
   font-size: 1.5rem;
   padding-bottom: 50px;
   padding-top: 15px;
@@ -563,6 +563,15 @@ a {
   height: 2px;
   background-color: #18293a;
   margin: 10px auto 40px auto; /* Centrar horizontalmente */
+}
+
+.linea2 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 2px;
+  background-color: #18293a;
+  margin: 30px auto 40px auto; /* Centrar horizontalmente */
 }
 
 .bootstrapServicesIMG {
@@ -595,10 +604,18 @@ a {
 
 .h3Skills {
   font-size: 3.5rem;
-  color: #18293a;
+  color: #18293a; /* $base-color */
   font-weight: 800;
-  padding: 5% 5% 5% 5%;
+  padding: 5%;
   letter-spacing: 2px;
+  overflow: hidden; /* Asegura que las letras que se desplacen hacia afuera no sean visibles */
+}
+
+.h3Skills span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.5s ease-in-out;
 }
 
 .pSkills {
@@ -639,19 +656,91 @@ a {
   font-weight: 800;
 }
 
+.sectionSkills {
+  background-color: #f7d1b6;
+  padding-bottom: 20px;
+}
+
 .pSection {
   font-size: 16px;
   color: #f7d1b6;
   font-weight: 600;
 }
 
-.skillsContainer {
+.containerSkills {
+  width: 70%;
+  height: 500px;
+}
+
+.rowSkills {
+  width: 100%;
+  height: 100%;
+  margin-top: 2.5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  background-color: #f7d1b6;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition-duration: 500ms;
+}
+.card:hover {
+  scale: 102%;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.7);
+}
+
+.card-text {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.card-title {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #18293a;
+}
+
+.btnSkillsCards {
+  width: 100px;
+  height: 50px;
+  color: #18293a;
+  border-radius: 4%;
+  border-color: #18293a;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  font-weight: 600;
+  transition-duration: 500ms;
+}
+.btnSkillsCards:hover {
   background-color: #18293a;
-  align-items: center;
-  filter: none;
+  color: #f7d1b6;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 .bodySkills {
+  background-color: #18293a;
+}
+
+.bodySkills2 {
   background-color: #18293a;
 }
 
@@ -741,6 +830,9 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
+  .containerSkills {
+    width: 100%;
+  }
   .imageFlexChild1 {
     width: 99%;
   }
@@ -752,6 +844,15 @@ a {
   }
 }
 @media screen and (max-width: 1100px) {
+  .containerSkills {
+    width: 100%;
+  }
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
   .skillsContain {
     filter: none;
   }
@@ -793,9 +894,27 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .containerSkills {
+    width: 100%;
+  }
   .h4Aside {
     font-size: 1.2rem;
     text-align: center;
+  }
+  .card-body {
+    padding-top: 0%;
+  }
+  .card-title {
+    font-size: 1rem;
+    margin-bottom: 0%;
+  }
+  .card-text {
+    font-size: 0.7rem;
+    padding-bottom: 0%;
+  }
+  .card-img-top {
+    width: 70px;
+    height: 70px;
   }
   .h3Skills {
     font-size: 1.5rem;
@@ -804,7 +923,7 @@ a {
   }
   .spanSkills {
     padding-top: 0%;
-    padding-bottom: 0%;
+    padding-bottom: 2%;
   }
   .btnSkills {
     margin-bottom: 5px;
@@ -891,6 +1010,9 @@ a {
   .h3Section {
     font-size: 28px;
   }
+  .card {
+    height: 95%;
+  }
   .ulSection {
     width: 180px;
     filter: none;
@@ -915,8 +1037,35 @@ a {
     background-image: url(./../images/designer.webp);
     background-attachment: unset;
   }
+  .spanSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    align-content: end;
+  }
+  .btnSkillsCards {
+    width: 60px;
+    height: 27px;
+    font-size: 0.4rem;
+  }
 }
 @media screen and (max-width: 440px) {
+  .containerSkills {
+    width: 100%;
+  }
+  .card {
+    height: 95%;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    font-size: 0.5rem;
+  }
+  .card-img-top {
+    width: 50px;
+    height: 50px;
+  }
   .imageFlexChild1 {
     width: 99%;
     filter: none;
@@ -1016,6 +1165,9 @@ strong {
   }
   .h4HeaderSkills {
     font-size: 1rem;
+  }
+  .containerSkills {
+    width: 100%;
   }
   .divSkillsHeader {
     padding-left: 10px;
