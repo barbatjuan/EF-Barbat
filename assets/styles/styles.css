@@ -1053,6 +1053,14 @@ a {
   .containerSkills {
     width: 100%;
   }
+  .btnSkillsCards {
+    font-size: 0.6rem;
+    font-weight: 200;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 1%;
+  }
   .card {
     height: 95%;
   }
@@ -1160,9 +1168,6 @@ strong {
   .footerWebCode {
     font-size: 0.6rem;
   }
-  .playwrite-ca {
-    font-size: 1.5rem;
-  }
   .h4HeaderSkills {
     font-size: 1rem;
   }
@@ -1267,6 +1272,30 @@ strong {
   }
   .whatsapp-button:hover {
     transform: scale(1.1);
+  }
+  .containerSkills {
+    width: 100%;
+  }
+  .btnSkillsCards {
+    font-size: 0.6rem;
+    font-weight: 200;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 1%;
+  }
+  .card {
+    height: 95%;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    font-size: 0.5rem;
+  }
+  .card-img-top {
+    width: 50px;
+    height: 50px;
   }
 }
 .infoWebCoders {
