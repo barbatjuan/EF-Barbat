@@ -12,6 +12,17 @@ body {
   background-color: #18293a;
 }
 
+.btn-secondary {
+  background-color: #18293a;
+  color: #d18675;
+  transition-duration: 500ms;
+}
+.btn-secondary:hover {
+  background-color: #18293a;
+  color: #d18675;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
 header {
   background-color: #ffffff;
 }
@@ -595,6 +606,20 @@ a {
   overflow: hidden;
 }
 
+.botonAuditoria {
+  margin: 0% 40% 0% 40%;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #d73340;
+  color: #18293a;
+  font-size: 3rem;
+  font-weight: 900;
+  transition-duration: 500ms;
+}
+.botonAuditoria:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
 .bootstrapServicesIMG4 {
   background-image: url(./../images/web4.jpg);
   width: 100%;
@@ -698,8 +723,9 @@ a {
 }
 
 .h3Section {
+  letter-spacing: 2px;
   color: #d73340;
-  font-size: 26px;
+  font-size: 1.9rem;
   font-weight: 800;
 }
 
@@ -730,7 +756,7 @@ a {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  border-radius: 5%;
+  border-radius: 10px;
   background-color: #f7d1b6;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   transition-duration: 500ms;
@@ -745,7 +771,7 @@ a {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  border-radius: 5%;
+  border-radius: 5px;
   background-color: #f7d1b6;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   transition-duration: 500ms;
@@ -901,7 +927,8 @@ a {
 
 .bootstrapH3 {
   color: #18293a;
-  font-weight: 800;
+  font-weight: 500;
+  font-size: 2.3rem;
 }
 
 .imgIndex {
@@ -936,6 +963,12 @@ a {
 @media screen and (max-width: 1100px) {
   .containerSkills {
     width: 100%;
+  }
+  .botonAuditoria {
+    margin: 0% 30% 0% 30%;
+    height: 56px;
+    font-size: 2.2rem;
+    font-weight: 800;
   }
   .card-title {
     font-size: 1.2rem;
@@ -984,6 +1017,12 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .botonAuditoria {
+    margin: 0% 20% 0% 20%;
+    height: 56px;
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
   .bgMainWeb {
     width: 100%;
     height: 1350px;
@@ -1338,6 +1377,9 @@ strong {
     color: #d73340;
     background-color: transparent;
   }
+  .contactBody {
+    text-align: left;
+  }
   .navMenu {
     opacity: 0;
     visibility: hidden;
@@ -1355,9 +1397,6 @@ strong {
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
     height: 100vh;
     overflow-y: auto;
-  }
-  .contactBody {
-    text-align: left;
   }
   .navMenu.visible {
     opacity: 1;
