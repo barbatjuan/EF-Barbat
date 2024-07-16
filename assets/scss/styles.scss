@@ -35,6 +35,7 @@ header {
 
 .logo {
   width: 150px;
+  height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -264,6 +265,7 @@ a {
 .ulSection {
   display: inline;
   width: 100px;
+  height: 100px;
   padding: 10px 10px 10px 10px;
   transition-duration: 300ms;
   filter: grayscale(0.8);
