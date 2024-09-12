@@ -18,7 +18,7 @@ body {
   background-color: $base-color;
 }
 
-.btn-secondary {;
+.btn-secondary {
   background-color: $base-color;
   color: $light-orange;
   transition-duration: 500ms;
@@ -33,7 +33,6 @@ header {
   background-color: #ffffff;
 }
 
-
 .imagenIndex {
   width: 100%;
   height: 70vh;
@@ -42,7 +41,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-} 
+}
 
 .logo {
   width: 150px;
@@ -193,10 +192,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-
   .imagenIndex {
     height: 40vh;
-  } 
+  }
   .iconFooter {
     width: 30px;
     &:hover {
@@ -370,16 +368,15 @@ a {
   text-align: justify;
 }
 
-.aGoogle p{
+.aGoogle p {
   color: #18293a;
   text-decoration: none;
 }
 
-.aGoogle a{
+.aGoogle a {
   color: #18293a;
   text-decoration: none;
 }
-
 
 /* WORKS*/
 
@@ -583,7 +580,6 @@ a {
   letter-spacing: 2px;
 }
 
-
 .h4HeaderSkills {
   font-size: 1.5rem;
   padding-bottom: 50px;
@@ -600,7 +596,6 @@ a {
   height: 2px;
   background-color: $base-color;
   margin: 10px auto 40px auto; /* Centrar horizontalmente */
- 
 }
 
 .linea2 {
@@ -683,7 +678,6 @@ a {
   padding-right: 5%;
 }
 
-
 .btnSkills {
   width: 100px;
   height: 50px;
@@ -707,12 +701,10 @@ a {
   padding-bottom: 30px;
 }
 
-
 .bgMainWeb3 {
   width: 100%;
   height: 1000px;
 }
-
 
 .bgWebDesign3 {
   width: 100%;
@@ -720,7 +712,6 @@ a {
   background-color: $ultra-light-orange;
   padding-bottom: 30px;
 }
-
 
 .bgWebDesign {
   width: 100%;
@@ -855,7 +846,6 @@ a {
   color: $base-color;
 }
 
-
 .btnSkillsCards {
   width: 100px;
   height: 50px;
@@ -899,7 +889,7 @@ a {
 .skillsContain {
   background-color: $ultra-light-orange;
   justify-content: center;
-  transition-duration: 900ms;;
+  transition-duration: 900ms;
 }
 
 .imageSkills {
@@ -982,7 +972,6 @@ a {
   font-weight: 600;
 }
 @media screen and (max-width: 1200px) {
-
   .bgMainWeb4 {
     width: 100%;
     height: 1700px;
@@ -1032,7 +1021,7 @@ a {
   .h3Skills {
     font-size: 2.5rem;
   }
-  
+
   .pSkills {
     font-size: 1rem;
   }
@@ -1071,9 +1060,7 @@ a {
   }
 }
 
-
 @media screen and (max-width: 768px) {
-
   .botonAuditoria {
     margin: 0% 20% 0% 20%;
     height: 56px;
@@ -1121,9 +1108,8 @@ a {
   .spanSkills {
     padding-top: 0%;
     padding-bottom: 2%;
-
   }
-  
+
   .btnSkills {
     margin-bottom: 5px;
     width: 70px;
@@ -1170,7 +1156,6 @@ a {
     background-size: auto;
     background-repeat: no-repeat;
   }
-
 
   .imageSkills {
     height: 300px;
@@ -1269,14 +1254,12 @@ a {
     height: 27px;
     font-size: 0.4rem;
   }
-
 }
 
 @media screen and (max-width: 440px) {
-
   .imagenIndex {
     height: 30vh;
-  } 
+  }
   .bgMainWeb {
     width: 100%;
     height: 1200px !important;
@@ -1306,7 +1289,7 @@ a {
     color: $ultra-light-orange;
     border-radius: 4%;
     background-color: $base-color;
-   border: transparent;
+    border: transparent;
     padding-left: 0%;
     padding-right: 0%;
     padding-top: 1%;
@@ -1503,11 +1486,10 @@ strong {
     background-color: transparent;
   }
 
-
   .contactBody {
     text-align: left;
   }
-  
+
   .navMenu {
     opacity: 0;
     visibility: hidden;
@@ -1526,7 +1508,6 @@ strong {
     height: 100vh;
     overflow-y: auto;
   }
-
 
   .navMenu.visible {
     opacity: 1;
@@ -1608,7 +1589,6 @@ strong {
     width: 50px;
     height: 50px;
   }
- 
 }
 
 .infoWebCoders {
@@ -1631,7 +1611,6 @@ strong {
 }
 
 /* Imágenes de servicios */
-
 
 /* Responsivo para pantallas menores de 550px */
 @media (max-width: 550px) {
@@ -1657,7 +1636,6 @@ strong {
     visibility: hidden;
     display: none;
   }
-
 
   .bootstrapServicesIMG550 {
     background-image: url(./../images/web\ design.jpg);
@@ -1707,4 +1685,21 @@ strong {
   }
 }
 
+.custom-swal {
+  background-color: #18293a; /* $base-color */
+  color: #f7d1b6; /* $ultra-light-orange */
+}
+
+.custom-title {
+  color: #d18675; /* $light-orange */
+}
+
+.custom-confirm {
+  background-color: #d73340 !important; /* $full-orange */
+  color: #f7d1b6 !important; /* $ultra-light-orange */
+}
+
+.custom-confirm:hover {
+  background-color: #3f5d64 !important; /* $light-blue */
+}
 /* estilos.css */
